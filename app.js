@@ -55,6 +55,7 @@ const app = new Vue({
                  
                  this.dataUsers.push({
                  name: this.userName,
+                 attemps: 7,
                  lifes: this.savesGame
                 })  
                 this.userName = '' 
